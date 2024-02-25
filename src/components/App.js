@@ -1,8 +1,19 @@
-import logo from '../images/logo.svg';
+// import logo from '../images/logo.svg';
 import '../styles/App.css';
+import NavBar from './NavBar';
 
 function App() {
   return (
+    <>
+      <NavBar />
+
+    </>
+  );
+}
+
+
+/*
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +30,6 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+*/
 
 export default App;

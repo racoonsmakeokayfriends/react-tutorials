@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# React Notes
+
+## Crap about images
+
+I went about using require and hardcoding the image paths, here's another way
+from the react tutorial using imports (1:44:56)
+```
+    **import reactLogo from "..images/react-icon-small.png"**
+
+    export default function NavBar() {
+        return (
+            <nav>
+                <img
+                    **src={reactLogo}**
+                    alt="React Logo"
+            </nav>
+        )
+    }
+```
